@@ -5,11 +5,8 @@
   <title>Xiangchi Yuan</title>
   <meta name="author" content="Xiangchi Yuan" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-
   <link rel="stylesheet" href="stylesheet.css" />
   <link rel="icon" href="images/gt-seal_0.png" type="image/x-icon" />
-
-  <!-- Minimal extra styling so you don't have to rewrite stylesheet.css -->
   <style>
     :root { --maxw: 900px; }
     body { margin: 0; line-height: 1.5; }
@@ -41,7 +38,6 @@
 </head>
 
 <body>
-  <!-- Sticky nav so it's clearly “single scrollable page with categories” -->
   <nav aria-label="Primary">
     <div class="wrap">
       <a href="#about">About</a>
@@ -52,17 +48,16 @@
   </nav>
 
   <main>
-    <!-- ABOUT -->
     <section id="about">
       <header>
         <div>
           <h1>Xiangchi Yuan</h1>
           <div class="muted">
-            PhD student, School of Computer Science, Georgia Institute of Technology 🐝
+            PhD student, College of Computing, Georgia Institute of Technology 🐝
           </div>
 
           <p>
-            Hi, I am Xiangchi Yuan (pronounced as Shyang-Chee Yoo-an/袁象驰), a PhD student at the
+            Hi, I am Xiangchi Yuan (pronounced as ShyangChee Yoo-an/袁象驰), a PhD student at the
             <a href="https://www.gatech.edu/">Georgia Institute of Technology</a>. I'm fortunate to work with
             <a href="https://wenke.gtisc.gatech.edu/">Prof. Wenke Lee</a>.
           </p>
@@ -97,7 +92,7 @@
       <div class="card" style="margin-top:14px;">
         <h2 style="margin-top:0;">News</h2>
         <ul>
-          <li><strong>[Jan 2026]</strong> Joining <strong>ByteDance Seed</strong> as an Incoming Research Intern.</li>
+          <li><strong>[Jan 2026]</strong> Will join <strong>ByteDance Seed</strong> as an Incoming Research Intern in May.</li>
           <li><strong>[Aug 2025]</strong> One paper accepted to <strong>EMNLP'25</strong>.</li>
           <li><strong>[May 2025]</strong> Research Intern at <strong>Adobe</strong> (Reasoning post-training).</li>
           <li><strong>[May 2025]</strong> Two papers accepted to <strong>ACL'25</strong> and one to <strong>ICML'25</strong>.</li>
@@ -105,7 +100,6 @@
       </div>
     </section>
 
-    <!-- RESEARCH INTERESTS -->
     <section id="interests">
       <h2>Research Interests</h2>
       <p>
@@ -115,18 +109,13 @@
 
       <ul class="pill-list" aria-label="Research interests list">
         <li>Reasoning post-training</li>
-        <li>Agentic long-context</li>
-        <li>LLM alignment</li>
-        <li>Efficient inference (KV cache, long-context)</li>
-        <li>ML security & robustness</li>
-        <li>Multimodal / unlearning</li>
+        <li>Agent</li>
+        <li>Efficient inference (KV cache, MoE, long-context)</li>
       </ul>
 
-      <!-- SVG requirement: this is an SVG “research snapshot” chart generated from publication data -->
       <div class="card" style="margin-top:14px;">
         <div class="row" style="justify-content:space-between;">
-          <h2 style="margin:0;">Research Snapshot (SVG)</h2>
-          <span class="muted">Auto-generated from publications.json</span>
+          <h2 style="margin:0;">Research Snapshot</h2>
         </div>
         <p class="muted" style="margin-top:8px;">
           Bars show number of publications per year based on the loaded data.
@@ -137,7 +126,6 @@
       </div>
     </section>
 
-    <!-- PUBLICATIONS (dynamically populated) -->
     <section id="publications">
       <div class="row" style="justify-content:space-between;">
         <h2>Publications</h2>
@@ -156,7 +144,6 @@
       <div class="pubs" id="pubList" aria-live="polite"></div>
     </section>
 
-    <!-- CONTACT / OPTIONAL -->
     <section id="contact" style="border-bottom:none;">
       <h2>Contact</h2>
       <p>
@@ -169,7 +156,6 @@
         <a href="https://space.bilibili.com/5924251?spm_id_from=333.1007.0.0">Some Photos!</a>
       </div>
 
-      <!-- Optional existing tracker kept -->
       <div style="margin-top:18px;">
         <a href="https://clustrmaps.com/site/1boon" title="Visit tracker">
           <img style="display:block;margin:0 auto;width:25%;max-width:260px;"
@@ -181,8 +167,6 @@
   </main>
 
 
-
-  <!-- JS that loads publications.json and renders publications + SVG -->
   <script src="script.js"></script>
 </body>
 </html>
