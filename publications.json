@@ -1,0 +1,143 @@
+[
+  {
+    "title": "Behavior Knowledge Merge in Reinforced Agentic Models",
+    "authors": ["Xiangchi Yuan", "Dachuan Shi", "Chunhui Zhang", "Zheyuan Liu", "Shenglong Yao", "Soroush Vosoughi", "Wenke Lee"],
+    "venue": "Preprint",
+    "year": 2025,
+    "type": "preprint",
+    "thumb": "images/ram.png",
+    "links": [
+      { "label": "project page", "url": "https://github.com/xiangchi-yuan/xiangchi-yuan.github.io/blob/master/data/ACL26_MergeRL.pdf" },
+      { "label": "preprint", "url": "https://github.com/xiangchi-yuan/xiangchi-yuan.github.io/blob/master/data/ACL26_MergeRL.pdf" }
+    ]
+  },
+  {
+    "title": "Mitigating Forgetting Between Supervised and Reinforcement Learning Yields Stronger Reasoners",
+    "authors": ["Xiangchi Yuan", "Xiang Chen", "Tong Yu", "Dachuan Shi", "Can Jin", "Wenke Lee", "Saayan Mitra"],
+    "venue": "Preprint",
+    "year": 2025,
+    "type": "preprint",
+    "thumb": "images/mifo.png",
+    "links": [
+      { "label": "project page", "url": "https://arxiv.org/pdf/2510.04454" },
+      { "label": "preprint", "url": "https://arxiv.org/pdf/2510.04454" }
+    ]
+  },
+  {
+    "title": "SwiReasoning: Switch-Thinking in Latent and Explicit for Pareto-Superior Reasoning LLMs",
+    "authors": ["Dachuan Shi", "Abedelkadir Asi", "Keying Li", "Xiangchi Yuan", "Leyan Pan", "Wenke Lee", "Wen Xiao"],
+    "venue": "Preprint",
+    "year": 2025,
+    "type": "preprint",
+    "thumb": "images/swireasoning.png",
+    "links": [
+      { "label": "project page", "url": "https://github.com/sdc17/SwiReasoning" },
+      { "label": "preprint", "url": "https://arxiv.org/pdf/2510.05069" }
+    ]
+  },
+  {
+    "title": "Superficial Self-Improved Reasoners Benefit from Model Merging",
+    "authors": ["Xiangchi Yuan", "Chunhui Zhang", "Zheyuan Liu", "Dachuan Shi", "Leyan Pan", "Soroush Vosoughi", "Wenke Lee"],
+    "venue": "EMNLP",
+    "year": 2025,
+    "type": "conference",
+    "thumb": "images/Merge.png",
+    "links": [
+      { "label": "project page", "url": "https://arxiv.org/abs/2503.02103" },
+      { "label": "preprint", "url": "https://github.com/xiangchi-yuan/merge_syn" }
+    ]
+  },
+  {
+    "title": "LaCache: Ladder-Shaped KV Caching for Efficient Long-Range Generation of Large Language Models",
+    "authors": ["Dachuan Shi", "Yonggan Fu", "Xiangchi Yuan", "Zhongzhi Yu", "Haoran You", "Sixu Li", "Xin Dong", "Jan Kautz", "Pavlo Molchanov", "Yingyan Celine Lin"],
+    "venue": "ICML",
+    "year": 2025,
+    "type": "conference",
+    "thumb": "images/Lacache.png",
+    "links": [
+      { "label": "project page", "url": "https://openreview.net/pdf?id=SDjZtxDo35" },
+      { "label": "preprint", "url": "https://github.com/GATECH-EIC/LaCache" }
+    ]
+  },
+  {
+    "title": "Modality-Aware Neuron Pruning for Unlearning in Multimodal Large Language Models",
+    "authors": ["Zheyuan Liu", "Guangyao Dou", "Xiangchi Yuan", "Chunhui Zhang", "Zhaoxuan Tan", "Meng Jiang"],
+    "venue": "ACL",
+    "year": 2025,
+    "type": "conference",
+    "thumb": "images/MANU.png",
+    "links": [
+      { "label": "project page", "url": "https://arxiv.org/abs/2502.15910" },
+      { "label": "preprint", "url": "https://github.com/franciscoliu/MANU" }
+    ]
+  },
+  {
+    "title": "Growing Through Experience: Scaling Episodic Grounding in Language Models Enlargement",
+    "authors": ["Chunhui Zhang", "Sirui Wang", "Zhongyu Ouyang", "Xiangchi Yuan", "Soroush Vosoughi"],
+    "venue": "ACL (Oral)",
+    "year": 2025,
+    "type": "conference",
+    "thumb": "images/Growing.png",
+    "links": [
+      { "label": "project page", "url": "https://arxiv.org/pdf/2506.01312" },
+      { "label": "preprint", "url": "https://github.com/chunhuizng/episodic-mcts/tree/main" }
+    ]
+  },
+  {
+    "title": "LongMamba: Enhancing Mamba’s Long-Context Capabilities via Training-Free Receptive Field Enlargement",
+    "authors": ["Zhifan Ye", "Kejing Xia", "Yonggan Fu", "Xin Dong", "Jihoon Hong", "Xiangchi Yuan", "Shizhe Diao", "Jan Kautz", "Pavlo Molchanov", "Yingyan Celine Lin"],
+    "venue": "ICLR",
+    "year": 2025,
+    "type": "conference",
+    "thumb": "images/Longmamba.jpg",
+    "links": [
+      { "label": "project page", "url": "https://openreview.net/forum?id=fMbLszVO1H" },
+      { "label": "preprint", "url": "https://openreview.net/pdf?id=fMbLszVO1H" }
+    ]
+  },
+  {
+    "title": "AmoebaLLM: Constructing Any-Shape Large Language Models for Efficient and Instant Deployment",
+    "authors": ["Yonggan Fu", "Zhongzhi Yu", "Junwei Li", "Jiayi Qian", "Yongan Zhang", "Dachuan Shi", "Xiangchi Yuan", "Roman Yakunin", "Yingyan Celine Lin"],
+    "venue": "NeurIPS",
+    "year": 2024,
+    "type": "conference",
+    "thumb": "images/amoeballm.png",
+    "links": []
+  },
+  {
+    "title": "Graph Cross Supervised Learning via Generalized Knowledge",
+    "authors": ["Xiangchi Yuan", "Yijun Tian", "Chunhui Zhang", "Yanfang Ye", "Nitesh V Chawla", "Chuxu Zhang"],
+    "venue": "KDD",
+    "year": 2024,
+    "type": "conference",
+    "thumb": "images/LipMoE.png",
+    "links": [
+      { "label": "project page", "url": "https://github.com/jiqianwanbaichi/Graph_Mixed_Supervised_Learning" },
+      { "label": "preprint", "url": "data/LipMoE.pdf" }
+    ]
+  },
+  {
+    "title": "Mitigating Severe Robustness Degradation on Graphs",
+    "authors": ["Xiangchi Yuan", "Chunhui Zhang", "Yijun Tian", "Yanfang Ye", "Chuxu Zhang"],
+    "venue": "ICLR",
+    "year": 2024,
+    "type": "conference",
+    "thumb": "images/dragon.png",
+    "links": [
+      { "label": "project page", "url": "https://www.dropbox.com/sh/l3ekm0epdw1mal4/AABnQsbqxJ1dVzPuzCJSkkz1a?dl=0" },
+      { "label": "preprint", "url": "https://openreview.net/forum?id=Koh0i2u8qX" }
+    ]
+  },
+  {
+    "title": "An End-to-End 12-Leading Electrocardiogram Diagnosis System Based on Deformable Convolutional Neural Network With Good Antinoise Ability",
+    "authors": ["Lang Qin", "Yuntao Xie", "Xinwen Liu", "Xiangchi Yuan", "Huan Wang"],
+    "venue": "IEEE TIM",
+    "year": 2021,
+    "type": "journal",
+    "thumb": "images/deform_cnn.png",
+    "links": [
+      { "label": "project page", "url": "https://github.com/HeartbeatAI/Deform-CNN" },
+      { "label": "preprint", "url": "data/An_End-to-End_12-Leading_Electrocardiogram_Diagnosis_System_Based_on_Deformable_Convolutional_Neural_Network_With_Good_Antinoise_Ability.pdf" }
+    ]
+  }
+]
