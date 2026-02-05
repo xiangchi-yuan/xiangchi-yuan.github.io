@@ -26,7 +26,7 @@ function escapeHtml(s) {
 }
 
 function formatAuthors(authors) {
-  // Bold your own name if present
+
   return authors.map(a => (a.toLowerCase() === "xiangchi yuan" ? `<b>${escapeHtml(a)}</b>` : escapeHtml(a))).join(", ");
 }
 
@@ -44,7 +44,6 @@ function renderPublications(pubs, typeFilter = "all") {
 
   status.textContent = `Showing ${filtered.length} publication(s).`;
 
-  // Sort newest first
   filtered.sort((a, b) => (b.year - a.year) || (String(a.title).localeCompare(String(b.title))));
 
   for (const p of filtered) {
@@ -92,10 +91,9 @@ function renderYearSvg(pubs) {
   const years = Array.from(counts.keys()).sort((a, b) => a - b);
   const svg = document.getElementById("pubsYearSvg");
 
-  // Clear svg
   while (svg.firstChild) svg.removeChild(svg.firstChild);
 
-  // If no data
+
   if (years.length === 0) {
     const t = document.createElementNS("http://www.w3.org/2000/svg", "text");
     t.setAttribute("x", "10");
@@ -105,7 +103,7 @@ function renderYearSvg(pubs) {
     return;
   }
 
-  // SVG layout
+
   const W = svg.viewBox?.baseVal?.width || Number(svg.getAttribute("width")) || 860;
   const H = svg.viewBox?.baseVal?.height || Number(svg.getAttribute("height")) || 220;
 
@@ -126,10 +124,10 @@ function renderYearSvg(pubs) {
     return n;
   }
 
-  // Axis line
+
   add("line", { x1: padL, y1: padT + innerH, x2: padL + innerW, y2: padT + innerH, stroke: "#bbb" });
 
-  // Bars + labels
+
   years.forEach((y, i) => {
     const c = counts.get(y);
     const h = (c / maxCount) * innerH;
@@ -137,13 +135,13 @@ function renderYearSvg(pubs) {
     const w = barW * 0.7;
     const yTop = padT + (innerH - h);
 
-    // Bar
+
     add("rect", { x, y: yTop, width: w, height: h, rx: 6, ry: 6, fill: "#d9d9d9", stroke: "#bdbdbd" });
 
-    // Count text
+
     add("text", { x: x + w / 2, y: yTop - 6, "text-anchor": "middle", "font-size": "12" }, String(c));
 
-    // Year label
+
     add("text", {
       x: x + w / 2,
       y: padT + innerH + 24,
@@ -152,7 +150,6 @@ function renderYearSvg(pubs) {
     }, String(y));
   });
 
-  // Title
   add("text", { x: padL, y: 14, "font-size": "12", fill: "#444" }, "Publications per year");
 }
 
