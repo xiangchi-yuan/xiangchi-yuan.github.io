@@ -1,184 +1,188 @@
-<!DOCTYPE HTML>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Xiangchi Yuan | Researcher Profile</title>
-    <meta name="author" content="Xiangchi Yuan">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheet.css">
-    <style>
-        /* 针对研究兴趣的样式 */
-        .interest-tag {
-            display: inline-block;
-            padding: 4px 12px;
-            margin: 4px;
-            background-color: #e8f0fe;
-            color: #1967d2;
-            border-radius: 20px;
-            font-size: 13px;
-            font-weight: 500;
-            border: 1px solid #d2e3fc;
-        }
-        heading {
-            font-size: 1.5em;
-            font-weight: bold;
-            display: block;
-            margin-bottom: 15px;
-            border-bottom: 1px solid #ddd;
-            padding-bottom: 5px;
-        }
-        .pub-image {
-            width: 100%;
-            max-width: 160px;
-            border-radius: 4px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-    </style>
+  <meta charset="utf-8" />
+  <title>Xiangchi Yuan</title>
+  <meta name="author" content="Xiangchi Yuan" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="stylesheet" href="stylesheet.css" />
+  <link rel="icon" href="images/gt-seal_0.png" type="image/x-icon" />
+
+  <!-- Minimal extra styling so you don't have to rewrite stylesheet.css -->
+  <style>
+    :root { --maxw: 900px; }
+    body { margin: 0; line-height: 1.5; }
+    main { max-width: var(--maxw); margin: 0 auto; padding: 24px 18px 64px; }
+    header { display: grid; grid-template-columns: 1fr 180px; gap: 18px; align-items: center; }
+    header img { width: 100%; border-radius: 10px; }
+    nav { position: sticky; top: 0; background: white; border-bottom: 1px solid #eee; z-index: 10; }
+    nav .wrap { max-width: var(--maxw); margin: 0 auto; padding: 10px 18px; display: flex; gap: 14px; flex-wrap: wrap; }
+    nav a { text-decoration: none; padding: 6px 10px; border-radius: 999px; border: 1px solid #eee; }
+    nav a:hover { border-color: #ccc; }
+    section { padding: 26px 0; border-bottom: 1px solid #f0f0f0; }
+    h1 { margin: 0 0 6px; font-size: 34px; }
+    h2 { margin: 0 0 10px; font-size: 22px; }
+    .muted { opacity: 0.75; }
+    .links a { margin-right: 10px; }
+    .pill-list { display: flex; flex-wrap: wrap; gap: 8px; padding-left: 0; list-style: none; }
+    .pill-list li { border: 1px solid #eee; border-radius: 999px; padding: 6px 10px; }
+    .pubs { display: grid; grid-template-columns: 1fr; gap: 14px; }
+    .pub { display: grid; grid-template-columns: 140px 1fr; gap: 14px; padding: 12px; border: 1px solid #eee; border-radius: 12px; }
+    .pub img { width: 100%; border-radius: 10px; object-fit: cover; }
+    .pub-title { margin: 0; font-size: 16px; }
+    .pub-meta { margin: 6px 0 8px; }
+    .tag { display: inline-block; border: 1px solid #eee; padding: 2px 8px; border-radius: 999px; font-size: 12px; margin-right: 6px; }
+    .row { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+    .card { border: 1px solid #eee; border-radius: 12px; padding: 12px; }
+    .svg-wrap { overflow-x: auto; }
+    footer { max-width: var(--maxw); margin: 0 auto; padding: 18px; font-size: 13px; }
+  </style>
 </head>
 
 <body>
-    <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-        <tbody>
-            <tr style="padding:0px">
-                <td style="padding:0px">
-                    
-                    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-                        <tbody>
-                            <tr style="padding:0px">
-                                <td style="padding:2.5%;width:63%;vertical-align:middle">
-                                    <p style="text-align:center">
-                                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#003057" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                            <circle cx="11" cy="11" r="8"></circle>
-                                            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-                                            <line x1="11" y1="8" x2="11" y2="14"></line>
-                                            <line x1="8" y1="11" x2="14" y2="11"></line>
-                                        </svg>
-                                        <br>
-                                        <name style="font-size: 32px; font-weight: bold;">Xiangchi Yuan (袁象驰)</name>
-                                    </p>
-                                    <p>Hi, I am a PhD student at the School of Computer Science at <a href="https://www.gatech.edu/">Georgia Institute of Technology</a>, advised by <a href="https://wenke.gtisc.gatech.edu/">Prof. Wenke Lee</a>.</p>
-                                    <p>My research focus is on building safe, efficient, and reasoning-capable large foundation models.</p>
-                                    <p style="text-align:center">
-                                        <a href="mailto:xiangchiyuan@brandeis.edu">Email</a> &nbsp/&nbsp
-                                        <a href="https://scholar.google.com/citations?user=KEWTO80AAAAJ&hl=en">Google Scholar</a> &nbsp/&nbsp
-                                        <a href="https://github.com/xiangchi-yuan">Github</a>
-                                    </p>
-                                </td>
-                                <td style="padding:2.5%;width:26%;max-width:26%">
-                                    <img style="width:100%;max-width:100%;border-radius:50%" alt="profile photo" src="data/photo2.jpg">
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
+  <!-- Sticky nav so it's clearly “single scrollable page with categories” -->
+  <nav aria-label="Primary">
+    <div class="wrap">
+      <a href="#about">About</a>
+      <a href="#interests">Research Interests</a>
+      <a href="#publications">Publications</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
 
-                    <hr>
+  <main>
+    <!-- ABOUT -->
+    <section id="about">
+      <header>
+        <div>
+          <h1>Xiangchi Yuan</h1>
+          <div class="muted">
+            PhD student, School of Computer Science, Georgia Institute of Technology 🐝
+          </div>
 
-                    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-                        <tbody>
-                            <tr>
-                                <td style="padding:20px;width:100%;vertical-align:middle">
-                                    <heading>Research Interests</heading>
-                                    <div id="interests">
-                                        <span class="interest-tag">Reinforcement Learning (PPO/GRPO)</span>
-                                        <span class="interest-tag">LLM Post-training & Alignment</span>
-                                        <span class="interest-tag">Model Merging & Task Vectors</span>
-                                        <span class="interest-tag">Agentic Long-context Reasoning</span>
-                                        <span class="interest-tag">AI Security & Robustness</span>
-                                    </div>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
+          <p>
+            Hi, I am Xiangchi Yuan (pronounced as Shyang-Chee Yoo-an/袁象驰), a PhD student at the
+            <a href="https://www.gatech.edu/">Georgia Institute of Technology</a>. I'm fortunate to work with
+            <a href="https://wenke.gtisc.gatech.edu/">Prof. Wenke Lee</a>.
+          </p>
 
-                    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-                        <tbody>
-                            <tr>
-                                <td style="padding:20px;width:100%;vertical-align:middle">
-                                    <heading>Publications</heading>
-                                    <div id="publication-container">
-                                        </div>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
+          <p>
+            I earned my MSCS degree at <a href="https://www.brandeis.edu/">Brandeis University</a> and my bachelor
+            degrees from <a href="https://en.uestc.edu.cn/">UESTC</a> and
+            <a href="https://www.gla.ac.uk/">University of Glasgow</a>.
+          </p>
 
-                    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-                        <tbody>
-                            <tr>
-                                <td style="padding:0px">
-                                    <p style="text-align:right;font-size:small; color: #888;">
-                                        Last updated: Feb 2026. Code structure inspired by Jon Barron.
-                                    </p>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
+          <p>
+            I sincerely thank all the co-authors, especially my mentor
+            <a href="https://chunhuizng.github.io/">🌲Mr. Chunhui Zhang</a>.
+          </p>
 
-                </td>
-            </tr>
-        </tbody>
-    </table>
+          <div class="links">
+            <a href="mailto:xiangchiyuan@brandeis.edu">Email</a>
+            <a href="data/Academy_Resume.pdf">CV</a>
+            <a href="https://scholar.google.com/citations?user=KEWTO80AAAAJ&hl=en">Google Scholar</a>
+            <a href="https://github.com/xiangchi-yuan">GitHub</a>
+            <a href="https://www.linkedin.com/in/xiangchi-yuan">LinkedIn</a>
+          </div>
+        </div>
 
-    <script type="text/javascript">
-        // 数据文件内容（实际应用中你可以使用 fetch('data.json')）
-        const pubData = [
-            {
-                title: "Behavior Knowledge Merge in Reinforced Agentic Models",
-                authors: "Xiangchi Yuan, Dachuan Shi, Chunhui Zhang, et al.",
-                venue: "Preprint, 2025",
-                image: "images/ram.png",
-                link: "https://github.com/xiangchi-yuan/xiangchi-yuan.github.io/blob/master/data/ACL26_MergeRL.pdf"
-            },
-            {
-                title: "Superficial Self-Improved Reasoners Benefit from Model Merging",
-                authors: "Xiangchi Yuan, Chunhui Zhang, Zheyuan Liu, et al.",
-                venue: "EMNLP, 2025",
-                image: "images/Merge.png",
-                link: "https://arxiv.org/abs/2503.02103"
-            },
-            {
-                title: "LaCache: Ladder-Shaped KV Caching for Efficient Long-Range Generation",
-                authors: "Dachuan Shi, Yonggan Fu, Xiangchi Yuan, et al.",
-                venue: "ICML, 2025",
-                image: "images/Lacache.png",
-                link: "https://openreview.net/pdf?id=SDjZtxDo35"
-            }
-        ];
+        <div>
+          <a href="data/photo2.jpg" aria-label="Profile photo">
+            <img src="data/photo2.jpg" alt="Profile photo of Xiangchi Yuan" />
+          </a>
+        </div>
+      </header>
 
-        function loadPublications() {
-            const container = document.getElementById('publication-container');
-            
-            pubData.forEach(pub => {
-                // 创建一个表格行模拟原有的样式
-                const table = document.createElement('table');
-                table.style.width = "100%";
-                table.style.border = "0px";
-                table.style.marginBottom = "20px";
-                
-                table.innerHTML = `
-                    <tbody>
-                        <tr>
-                            <td style="padding:10px;width:25%;vertical-align:middle">
-                                <img src="${pub.image}" class="pub-image">
-                            </td>
-                            <td style="padding:10px;width:75%;vertical-align:middle">
-                                <a href="${pub.link}">
-                                    <span style="font-weight:bold; color: #1967d2;">${pub.title}</span>
-                                </a>
-                                <br>
-                                <span style="font-size: 14px;">${pub.authors.replace('Xiangchi Yuan', '<b>Xiangchi Yuan</b>')}</span>
-                                <br>
-                                <em style="font-size: 14px;">${pub.venue}</em>
-                            </td>
-                        </tr>
-                    </tbody>
-                `;
-                container.appendChild(table);
-            });
-        }
+      <div class="card" style="margin-top:14px;">
+        <h2 style="margin-top:0;">News</h2>
+        <ul>
+          <li><strong>[Jan 2026]</strong> Joining <strong>ByteDance Seed</strong> as an Incoming Research Intern.</li>
+          <li><strong>[Aug 2025]</strong> One paper accepted to <strong>EMNLP'25</strong>.</li>
+          <li><strong>[May 2025]</strong> Research Intern at <strong>Adobe</strong> (Reasoning post-training).</li>
+          <li><strong>[May 2025]</strong> Two papers accepted to <strong>ACL'25</strong> and one to <strong>ICML'25</strong>.</li>
+        </ul>
+      </div>
+    </section>
 
-        // 页面加载完成后执行
-        window.onload = loadPublications;
-    </script>
+    <!-- RESEARCH INTERESTS -->
+    <section id="interests">
+      <h2>Research Interests</h2>
+      <p>
+        My research interests include training large foundation models to reason, solving complex tasks (especially
+        agentic long-context), and security tasks.
+      </p>
+
+      <ul class="pill-list" aria-label="Research interests list">
+        <li>Reasoning post-training</li>
+        <li>Agentic long-context</li>
+        <li>LLM alignment</li>
+        <li>Efficient inference (KV cache, long-context)</li>
+        <li>ML security & robustness</li>
+        <li>Multimodal / unlearning</li>
+      </ul>
+
+      <!-- SVG requirement: this is an SVG “research snapshot” chart generated from publication data -->
+      <div class="card" style="margin-top:14px;">
+        <div class="row" style="justify-content:space-between;">
+          <h2 style="margin:0;">Research Snapshot (SVG)</h2>
+          <span class="muted">Auto-generated from publications.json</span>
+        </div>
+        <p class="muted" style="margin-top:8px;">
+          Bars show number of publications per year based on the loaded data.
+        </p>
+        <div class="svg-wrap">
+          <svg id="pubsYearSvg" width="860" height="220" role="img" aria-label="Publications per year bar chart"></svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- PUBLICATIONS (dynamically populated) -->
+    <section id="publications">
+      <div class="row" style="justify-content:space-between;">
+        <h2>Publications</h2>
+        <div class="row">
+          <label for="pubFilter" class="muted">Filter:</label>
+          <select id="pubFilter" aria-label="Filter publications">
+            <option value="all">All</option>
+            <option value="conference">Conference</option>
+            <option value="preprint">Preprint</option>
+            <option value="journal">Journal</option>
+          </select>
+        </div>
+      </div>
+
+      <p class="muted" id="pubStatus">Loading publications…</p>
+      <div class="pubs" id="pubList" aria-live="polite"></div>
+    </section>
+
+    <!-- CONTACT / OPTIONAL -->
+    <section id="contact" style="border-bottom:none;">
+      <h2>Contact</h2>
+      <p>
+        Feel free to email me for a laid-back chat about life, career, or research.
+      </p>
+
+      <div class="row">
+        <a href="mailto:xiangchiyuan@brandeis.edu">xiangchiyuan@brandeis.edu</a>
+        <span class="muted">•</span>
+        <a href="https://space.bilibili.com/5924251?spm_id_from=333.1007.0.0">Some Photos!</a>
+      </div>
+
+      <!-- Optional existing tracker kept -->
+      <div style="margin-top:18px;">
+        <a href="https://clustrmaps.com/site/1boon" title="Visit tracker">
+          <img style="display:block;margin:0 auto;width:25%;max-width:260px;"
+               src="//www.clustrmaps.com/map_v2.png?d=vv95YDjc6sz1qD8tnXNC2_KcQtLepWnZm2378lDwt40&cl=ffffff"
+               alt="Visitor map" />
+        </a>
+      </div>
+    </section>
+  </main>
+
+
+
+  <!-- JS that loads publications.json and renders publications + SVG -->
+  <script src="script.js"></script>
 </body>
 </html>
