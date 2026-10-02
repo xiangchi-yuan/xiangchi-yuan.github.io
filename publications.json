@@ -1,15 +1,444 @@
 [
-{"title":"Behavior Knowledge Merge in Reinforced Agentic Models","authors":["Xiangchi Yuan","Dachuan Shi","Chunhui Zhang","Zheyuan Liu","Shenglong Yao","Soroush Vosoughi","Wenke Lee"],"venue":"Preprint","year":2025,"thumb":"images/ram.png","links":[{"label":"PDF","url":"data/ACL26_MergeRL.pdf"},{"label":"Code","url":"https://github.com/xiangchi-yuan/merge_syn"}]},
-{"title":"Mitigating Forgetting Between Supervised Learning and Reinforcement Learning Yields Stronger Reasoners","authors":["Xiangchi Yuan","Xiang Chen","Tong Yu","Dachuan Shi","Can Jin","Wenke Lee","Saayan Mitra"],"venue":"Preprint","year":2025,"thumb":"images/mifo.png","links":[{"label":"PDF","url":"https://arxiv.org/pdf/2510.04454"}]},
-{"title":"SwiReasoning: Switch-Thinking in Latent and Explicit for Pareto-Superior Reasoning Large Language Models","authors":["Dachuan Shi","Abedelkadir Asi","Keying Li","Xiangchi Yuan","Leyan Pan","Wenke Lee","Wen Xiao"],"venue":"Preprint","year":2025,"thumb":"images/swireasoning.png","links":[{"label":"PDF","url":"https://arxiv.org/pdf/2510.05069"},{"label":"Code","url":"https://github.com/sdc17/SwiReasoning"}]},
-{"title":"Superficial Self-Improved Reasoners Benefit from Model Merging","authors":["Xiangchi Yuan","Chunhui Zhang","Zheyuan Liu","Dachuan Shi","Leyan Pan","Soroush Vosoughi","Wenke Lee"],"venue":"EMNLP 2025","year":2025,"thumb":"images/Merge.png","links":[{"label":"Paper","url":"https://arxiv.org/abs/2503.02103"},{"label":"Code","url":"https://github.com/xiangchi-yuan/merge_syn"}]},
-{"title":"Modality-Aware Neuron Pruning for Unlearning in Multimodal Large Language Models","authors":["Zheyuan Liu","Guangyao Dou","Xiangchi Yuan","Chunhui Zhang","Zhaoxuan Tan","Meng Jiang"],"venue":"ACL 2025","year":2025,"thumb":"images/MANU.png","links":[{"label":"Paper","url":"https://arxiv.org/abs/2502.15910"},{"label":"Code","url":"https://github.com/franciscoliu/MANU"}]},
-{"title":"Growing Through Experience: Scaling Episodic Grounding in Language Models","authors":["Chunhui Zhang","Sirui Wang","Zhongyu Ouyang","Xiangchi Yuan","Soroush Vosoughi"],"venue":"ACL 2025 · Oral","year":2025,"thumb":"images/Growing.png","links":[{"label":"Paper","url":"https://arxiv.org/pdf/2506.01312"},{"label":"Code","url":"https://github.com/chunhuizng/episodic-mcts/tree/main"}]},
-{"title":"LaCache: Ladder-Shaped KV Caching for Efficient Long-Range Generation of Large Language Models","authors":["Dachuan Shi","Yonggan Fu","Xiangchi Yuan","Zhongzhi Yu","Haoran You","Sixu Li","Xin Dong","Jan Kautz","Pavlo Molchanov","Yingyan Celine Lin"],"venue":"ICML 2025","year":2025,"thumb":"images/Lacache.png","links":[{"label":"Paper","url":"https://openreview.net/pdf?id=SDjZtxDo35"},{"label":"Code","url":"https://github.com/GATECH-EIC/LaCache"}]},
-{"title":"LongMamba: Enhancing Mamba’s Long-Context Capabilities via Training-Free Receptive Field Enlargement","authors":["Zhifan Ye","Kejing Xia","Yonggan Fu","Xin Dong","Jihoon Hong","Xiangchi Yuan","Shizhe Diao","Jan Kautz","Pavlo Molchanov","Yingyan Celine Lin"],"venue":"ICLR 2025","year":2025,"thumb":"images/Longmamba.jpg","links":[{"label":"Paper","url":"https://openreview.net/forum?id=fMbLszVO1H"}]},
-{"title":"AmoebaLLM: Constructing Any-Shape Large Language Models for Efficient and Instant Deployment","authors":["Yonggan Fu","Zhongzhi Yu","Junwei Li","Jiayi Qian","Yongan Zhang","Xiangchi Yuan","Dachuan Shi","Roman Yakunin","Yingyan Celine Lin"],"venue":"NeurIPS 2024","year":2024,"thumb":"images/amoeballm.png","links":[]},
-{"title":"Graph Cross Supervised Learning via Generalized Knowledge","authors":["Xiangchi Yuan","Yijun Tian","Chunhui Zhang","Yanfang Ye","Nitesh V. Chawla","Chuxu Zhang"],"venue":"KDD 2024 · Oral","year":2024,"thumb":"images/LipMoE.png","links":[{"label":"Paper","url":"data/LipMoE.pdf"}]},
-{"title":"Mitigating Emergent Robustness Degradation while Scaling Graph Learning","authors":["Xiangchi Yuan*","Chunhui Zhang*","Yijun Tian","Yanfang Ye","Chuxu Zhang"],"venue":"ICLR 2024","year":2024,"thumb":"images/dragon.png","links":[{"label":"Paper","url":"https://openreview.net/forum?id=Koh0i2u8qX"}]},
-{"title":"Navigating Graph Robust Learning against All-Intensity Attacks","authors":["Xiangchi Yuan","Chunhui Zhang","Yijun Tian","Chuxu Zhang"],"venue":"ICML Workshop 2023","year":2023,"thumb":"images/dragon.png","links":[{"label":"PDF","url":"data/DRAGON.pdf"}]},
-{"title":"An End-to-End 12-Leading Electrocardiogram Diagnosis System Based on Deformable Convolutional Neural Network With Good Antinoise Ability","authors":["Lang Qin","Yuntao Xie","Xinwen Liu","Xiangchi Yuan","Huan Wang"],"venue":"IEEE TIM","year":2021,"thumb":"images/deform_cnn.png","links":[{"label":"PDF","url":"data/An_End-to-End_12-Leading_Electrocardiogram_Diagnosis_System_Based_on_Deformable_Convolutional_Neural_Network_With_Good_Antinoise_Ability.pdf"}]}
+  {
+    "title": "Priority-Preserving Advantage Aggregation for Multi-Reward Policy Optimization",
+    "authors": [
+      "Xiangchi Yuan et al."
+    ],
+    "venue": "Preprint, 2026",
+    "year": 2026,
+    "section": "preprint",
+    "thumb": "images/papo-method.png",
+    "links": [
+      {
+        "label": "PDF",
+        "url": "data/ICLR_2027_Advantage_Integration.pdf"
+      },
+      {
+        "label": "Code",
+        "url": "https://anonymous.4open.science/r/papo-BC29/"
+      }
+    ],
+    "description": "Introduces priority-preserving advantage aggregation for multi-reward RL, improving auxiliary objectives while preserving the optimization direction of the primary objective."
+  },
+  {
+    "title": "Behavior Knowledge Merge in Reinforced Agentic Models",
+    "authors": [
+      "Xiangchi Yuan",
+      "Dachuan Shi",
+      "Chunhui Zhang",
+      "Zheyuan Liu",
+      "Shenglong Yao",
+      "Soroush Vosoughi",
+      "Wenke Lee"
+    ],
+    "venue": "The 64th Annual Meeting of the Association for Computational Linguistics (ACL Main), 2026",
+    "year": 2026,
+    "section": "publication",
+    "thumb": "images/ram-method.png",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://aclanthology.org/2026.acl-long.1524/"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/xiangchi-yuan/ram"
+      }
+    ],
+    "description": "Combines specialized RL-trained agents into a single generalist model that outperforms the original experts."
+  },
+  {
+    "title": "Mitigating Forgetting Between Supervised and Reinforcement Learning Yields Stronger Reasoners",
+    "authors": [
+      "Xiangchi Yuan",
+      "Xiang Chen",
+      "Tong Yu",
+      "Dachuan Shi",
+      "Can Jin",
+      "Wenke Lee",
+      "Saayan Mitra"
+    ],
+    "venue": "Conference on Empirical Methods in Natural Language Processing (EMNLP Main), 2026",
+    "year": 2026,
+    "section": "publication",
+    "thumb": "images/mifo-method.png",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2510.04454"
+      }
+    ],
+    "description": "Interleaves SFT and RL for reasoning post-training while protecting RL-acquired knowledge from catastrophic forgetting, achieving SOTA performance with only 1.5% of SFT data and 20.4% of RL."
+  },
+  {
+    "title": "SwiReasoning: Switch-Thinking in Latent and Explicit for Pareto-Superior Reasoning Large Language Models",
+    "authors": [
+      "Dachuan Shi",
+      "Abedelkadir Asi",
+      "Keying Li",
+      "Xiangchi Yuan",
+      "Leyan Pan",
+      "Wenke Lee",
+      "Wen Xiao"
+    ],
+    "venue": "International Conference on Learning Representations (ICLR), 2026",
+    "year": 2026,
+    "section": "publication",
+    "thumb": "images/swireasoning.png",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2510.05069"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/sdc17/SwiReasoning"
+      }
+    ],
+    "description": "Combines latent and explicit reasoning through adaptive switch-thinking, improving reasoning accuracy by 3.1% while increasing average token efficiency by 79%."
+  },
+  {
+    "title": "Superficial Self-Improved Reasoners Benefit from Model Merging",
+    "authors": [
+      "Xiangchi Yuan",
+      "Chunhui Zhang",
+      "Zheyuan Liu",
+      "Dachuan Shi",
+      "Leyan Pan",
+      "Soroush Vosoughi",
+      "Wenke Lee"
+    ],
+    "venue": "Conference on Empirical Methods in Natural Language Processing (EMNLP Main), 2025",
+    "year": 2025,
+    "section": "publication",
+    "thumb": "images/Merge.png",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2503.02103"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/xiangchi-yuan/merge_syn"
+      }
+    ],
+    "description": "Identifies superficial self-improvement in reasoning LLMs and introduces iterative model merging with backfill RFT to improve reasoning generalization."
+  },
+  {
+    "title": "LaCache: Ladder-Shaped KV Caching for Efficient Long-Context Modeling of Large Language Models",
+    "authors": [
+      "Dachuan Shi",
+      "Yonggan Fu",
+      "Xiangchi Yuan",
+      "Zhongzhi Yu",
+      "Haoran You",
+      "Sixu Li",
+      "Xin Dong",
+      "Jan Kautz",
+      "Pavlo Molchanov",
+      "Yingyan Celine Lin"
+    ],
+    "venue": "International Conference on Machine Learning (ICML), 2025",
+    "year": 2025,
+    "section": "publication",
+    "thumb": "images/Lacache.png",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://openreview.net/pdf?id=SDjZtxDo35"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/GATECH-EIC/LaCache"
+      }
+    ],
+    "description": "Introduces a training-free ladder-shaped KV caching framework with iterative compaction for memory-efficient long-context LLM inference and generation."
+  },
+  {
+    "title": "Mitigating Emergent Robustness Degradation while Scaling Graph Learning",
+    "authors": [
+      "Xiangchi Yuan*",
+      "Chunhui Zhang*",
+      "Yijun Tian",
+      "Yanfang Ye",
+      "Chuxu Zhang"
+    ],
+    "venue": "International Conference on Learning Representations (ICLR), 2024",
+    "year": 2024,
+    "section": "publication",
+    "thumb": "images/dragon.png",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://openreview.net/forum?id=Koh0i2u8qX"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/chunhuizng/emergent-degradation"
+      }
+    ],
+    "description": "Develops a scalable MoE framework that mitigates emergent robustness degradation as adversarial attack strength increases."
+  },
+  {
+    "title": "Graph Cross-Supervised Learning via Generalized Knowledge",
+    "authors": [
+      "Xiangchi Yuan",
+      "Yijun Tian",
+      "Chunhui Zhang",
+      "Yanfang Ye",
+      "Nitesh V. Chawla",
+      "Chuxu Zhang"
+    ],
+    "venue": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD Oral), 2024",
+    "year": 2024,
+    "section": "publication",
+    "thumb": "",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://dl.acm.org/doi/10.1145/3637528.3671830"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/xiangchi-yuan/Graph-Cross-Supervised-Learning"
+      }
+    ],
+    "description": "Introduces a cross-supervised MoE model that can leverage generalized knowledge for new data."
+  },
+  {
+    "title": "Steering Multimodal Large Language Models Decoding for Context-Aware Safety",
+    "authors": [
+      "Zheyuan Liu",
+      "Zhangchen Xu",
+      "Guangyao Dou",
+      "Xiangchi Yuan",
+      "Zhaoxuan Tan",
+      "Radha Poovendran",
+      "Meng Jiang"
+    ],
+    "venue": "Conference on Empirical Methods in Natural Language Processing (EMNLP Main), 2026",
+    "year": 2026,
+    "section": "collaboration",
+    "thumb": "images/safecode-method.png",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2509.19212"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/franciscoliu/SafeCoDe"
+      }
+    ]
+  },
+  {
+    "title": "MetaState: Persistent Working Memory Enhances Reasoning in Discrete Diffusion Language Models",
+    "authors": [
+      "Kejing Xia",
+      "Mingzhe Li",
+      "Lixuan Wei",
+      "Zhenbang Du",
+      "Xiangchi Yuan",
+      "Dachuan Shi",
+      "Qirui Jin",
+      "Wenke Lee"
+    ],
+    "venue": "Conference on Language Modeling (COLM), 2026",
+    "year": 2026,
+    "section": "collaboration",
+    "thumb": "images/metastate-method.png",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2603.01331"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/Les1a/MetaState"
+      }
+    ]
+  },
+  {
+    "title": "Sparsity-Controllable Dynamic Top-p MoE for Large Foundation Model Pre-training",
+    "authors": [
+      "Can Jin",
+      "Hongwu Peng",
+      "Mingcan Xiang",
+      "Qixin Zhang",
+      "Xiangchi Yuan",
+      "Amit Hasan",
+      "Ohi Dibua",
+      "Yifan Gong",
+      "Yan Kang",
+      "Dimitris N. Metaxas"
+    ],
+    "venue": "International Conference on Machine Learning (ICML), 2026",
+    "year": 2026,
+    "section": "collaboration",
+    "thumb": "images/toppmoe-method.png",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2512.13996"
+      }
+    ]
+  },
+  {
+    "title": "What Makes a Good Curriculum? Disentangling the Effects of Data Ordering on LLM Mathematical Reasoning",
+    "authors": [
+      "Yaning Jia",
+      "Chunhui Zhang",
+      "Xingjian Diao",
+      "Xiangchi Yuan",
+      "Zhongyu Ouyang",
+      "Chiyu Ma",
+      "Soroush Vosoughi"
+    ],
+    "venue": "The 64th Annual Meeting of the Association for Computational Linguistics (ACL Main), 2026",
+    "year": 2026,
+    "section": "collaboration",
+    "thumb": "images/curriculum-method.png",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://aclanthology.org/2026.acl-long.1591/"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/karpning/Curriculum_evaluation"
+      }
+    ]
+  },
+  {
+    "title": "MTMCS-Bench: Evaluating Contextual Safety of Multimodal Large Language Models in Multi-Turn Dialogues",
+    "authors": [
+      "Zheyuan Liu",
+      "Dongwhi Kim",
+      "Yixin Wan",
+      "Xiangchi Yuan",
+      "Zhaoxuan Tan",
+      "Fengran Mo",
+      "Meng Jiang"
+    ],
+    "venue": "Findings of the Association for Computational Linguistics (ACL Findings), 2026",
+    "year": 2026,
+    "section": "collaboration",
+    "thumb": "images/mtmcs-method.png",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://aclanthology.org/2026.findings-acl.96/"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/franciscoliu/MTMCS-Bench"
+      }
+    ]
+  },
+  {
+    "title": "Modality-Aware Neuron Pruning for Unlearning in Multimodal Large Language Models",
+    "authors": [
+      "Zheyuan Liu",
+      "Guangyao Dou",
+      "Xiangchi Yuan",
+      "Chunhui Zhang",
+      "Zhaoxuan Tan",
+      "Meng Jiang"
+    ],
+    "venue": "The 63rd Annual Meeting of the Association for Computational Linguistics (ACL Main), 2025",
+    "year": 2025,
+    "section": "collaboration",
+    "thumb": "images/MANU.png",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2502.15910"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/franciscoliu/MANU"
+      }
+    ]
+  },
+  {
+    "title": "Growing Through Experience: Scaling Episodic Grounding in Language Models",
+    "authors": [
+      "Chunhui Zhang",
+      "Sirui Wang",
+      "Zhongyu Ouyang",
+      "Xiangchi Yuan",
+      "Soroush Vosoughi"
+    ],
+    "venue": "The 63rd Annual Meeting of the Association for Computational Linguistics (ACL Oral), 2025",
+    "year": 2025,
+    "section": "collaboration",
+    "thumb": "images/Growing.png",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2506.01312"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/chunhuizng/episodic-mcts"
+      }
+    ]
+  },
+  {
+    "title": "LongMamba: Enhancing Mamba’s Long-Context Capabilities via Training-Free Receptive Field Enlargement",
+    "authors": [
+      "Zhifan Ye",
+      "Kejing Xia",
+      "Yonggan Fu",
+      "Xin Dong",
+      "Jihoon Hong",
+      "Xiangchi Yuan",
+      "Shizhe Diao",
+      "Jan Kautz",
+      "Pavlo Molchanov",
+      "Yingyan Celine Lin"
+    ],
+    "venue": "International Conference on Learning Representations (ICLR), 2025",
+    "year": 2025,
+    "section": "collaboration",
+    "thumb": "images/Longmamba.jpg",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://xiangchi-yuan.github.io/data/LongMamba.pdf"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/xiangchi-yuan/mamba_long_context"
+      }
+    ]
+  },
+  {
+    "title": "AmoebaLLM: Constructing Any-Shape Large Language Models for Efficient and Instant Deployment",
+    "authors": [
+      "Yonggan Fu",
+      "Zhongzhi Yu",
+      "Junwei Li",
+      "Jiayi Qian",
+      "Yongan Zhang",
+      "Xiangchi Yuan",
+      "Dachuan Shi",
+      "Roman Yakunin",
+      "Yingyan Celine Lin"
+    ],
+    "venue": "Advances in Neural Information Processing Systems (NeurIPS), 2024",
+    "year": 2024,
+    "section": "collaboration",
+    "thumb": "images/amoeballm.png",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://openreview.net/pdf?id=G0yxFmP87g"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/GATECH-EIC/AmoebaLLM"
+      }
+    ]
+  }
 ]
